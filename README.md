@@ -1,5 +1,5 @@
 # Student Form
-I created this mini form which involves using MySQL and MongoDB databases.
+I created this mini form which involves using MySQL and MongoDB databases during my internship at STPL.
 All the form responses are stored in both the databases.
 
 (this is test project to improve my efficiency of working with databases)
