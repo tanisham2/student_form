@@ -1,4 +1,4 @@
-# student_form
+# Student Form
 I created this mini form which involves using MySQL and MongoDB databases.
 All the form responses are stored in both the databases.
 
