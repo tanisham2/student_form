@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> DetailsFORM </title>
+</head>
+
+<body>
+    <div class="container">
+    <h1> Personal Details </h1>
+
+    <form id="studentForm" enctype="multipart/form-data">
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br><br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <br><br>
+        <label for="Gender">Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label><br><br>
+        
+
+        <label for="courses">Courses:</label><br>
+          <input type="checkbox" id="course1" name="courses[]" value="React">
+          <label for="course1">React</label><br>
+          <input type="checkbox" id="course2" name="courses[]" value="MySQL">
+          <label for="course2">MySQL</label><br>
+          <input type="checkbox" id="course3" name="courses[]" value="MongoDB">
+          <label for="course3">MongoDB</label><br>
+          <input type="checkbox" id="course3" name="courses[]" value="JavaScript">
+          <label for="course3">JavaScript</label><br><br>
+
+
+        <label for="resume"> Resume:</label>
+        <input type="file" name="resume" required><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
