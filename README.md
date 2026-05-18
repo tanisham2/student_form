@@ -5,5 +5,11 @@ All the form responses are stored in both the databases.
 (this is test project to improve my efficiency of working with databases)
 
 ## Special features:
--Form Validation
+- Form Validation
 - Storing file data
+- Appling filter on the file: only PDF allowed, and less than 2MB allowed
+
+
+
+
+
